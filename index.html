@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard Analisis Trend GE & GM Universiti Malaya</title>
+    <title>Dashboard Analisis Trend GE, GM & Respon Universiti Malaya</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Chart.js -->
@@ -32,7 +32,7 @@
                 </div>
                 <div>
                     <h1 class="text-lg sm:text-xl font-bold tracking-tight">UNIVERSITI MALAYA</h1>
-                    <p class="text-xs text-blue-200">Dashboard Analisis Kebolehpasaran & Kadar Bekerja (2020-2025)</p>
+                    <p class="text-xs text-blue-200">Dashboard Analisis Kebolehpasaran, Kadar Bekerja & Respon (2020-2025)</p>
                 </div>
             </div>
             <div class="hidden md:flex items-center space-x-4 text-xs font-semibold">
@@ -54,135 +54,175 @@
             <div class="flex items-center justify-between">
                 <div>
                     <h2 class="text-xl font-bold text-slate-900">Prestasi Terkini Graduan (Tahun 2025)</h2>
-                    <p class="text-sm text-slate-500">Ringkasan peratusan GE dan GM terkini berbanding tahun 2024.</p>
+                    <p class="text-sm text-slate-500">Ringkasan peratusan GE, GM dan Kadar Respon terkini berbanding tahun 2024.</p>
                 </div>
                 <div class="text-xs bg-slate-100 text-slate-600 px-3 py-1.5 rounded-lg border border-slate-200 font-medium hidden sm:block">
                     <i class="fa-solid fa-circle-info mr-1 text-blue-600"></i> Keseluruhan = Warganegara + Bukan Warganegara
                 </div>
             </div>
             
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
                 <!-- Card 1: GE Keseluruhan -->
-                <div class="bg-white rounded-xl p-5 shadow-sm border border-slate-100 flex items-center justify-between hover:shadow-md transition-shadow">
+                <div class="bg-white rounded-xl p-4 shadow-sm border border-slate-100 flex items-center justify-between hover:shadow-md transition-shadow">
                     <div class="space-y-1">
                         <div class="flex items-center gap-1.5">
-                            <span class="text-xs font-semibold text-slate-500 uppercase tracking-wider block">GE Keseluruhan</span>
-                            <span class="text-[9px] bg-slate-100 text-slate-600 px-1 py-0.2 rounded font-bold">Semua</span>
+                            <span class="text-[10px] font-bold text-slate-500 uppercase tracking-wider block">GE Keseluruhan</span>
+                            <span class="text-[8px] bg-slate-100 text-slate-600 px-1 py-0.2 rounded font-bold">Semua</span>
                         </div>
-                        <div class="flex items-baseline space-x-2">
-                            <span class="text-3xl font-extrabold text-slate-950">91.22%</span>
-                            <span class="text-xs font-bold text-rose-500 flex items-center bg-rose-50 px-1.5 py-0.5 rounded">
-                                <i class="fa-solid fa-caret-down mr-1"></i> 1.34%
+                        <div class="flex items-baseline space-x-1.5">
+                            <span class="text-2xl font-extrabold text-slate-950">91.22%</span>
+                            <span class="text-[10px] font-bold text-rose-500 flex items-center bg-rose-50 px-1.5 py-0.5 rounded">
+                                <i class="fa-solid fa-caret-down mr-0.5"></i> 1.34%
                             </span>
                         </div>
-                        <span class="text-[10px] text-slate-400 block">berbanding 92.56% (2024)</span>
+                        <span class="text-[10px] text-slate-400 block">lwn 92.56% (2024)</span>
                     </div>
-                    <div class="w-12 h-12 bg-slate-100 rounded-xl flex items-center justify-center text-slate-600 text-lg">
+                    <div class="w-10 h-10 bg-slate-100 rounded-lg flex items-center justify-center text-slate-600 text-md">
                         <i class="fa-solid fa-briefcase"></i>
                     </div>
                 </div>
 
                 <!-- Card 2: GE Warganegara -->
-                <div class="bg-white rounded-xl p-5 shadow-sm border border-slate-100 flex items-center justify-between hover:shadow-md transition-shadow">
+                <div class="bg-white rounded-xl p-4 shadow-sm border border-slate-100 flex items-center justify-between hover:shadow-md transition-shadow">
                     <div class="space-y-1">
                         <div class="flex items-center gap-1.5">
-                            <span class="text-xs font-semibold text-slate-500 uppercase tracking-wider block">GE Warganegara</span>
-                            <span class="text-[9px] bg-blue-50 text-blue-600 px-1 py-0.2 rounded font-bold">Tempatan</span>
+                            <span class="text-[10px] font-bold text-slate-500 uppercase tracking-wider block">GE Warganegara</span>
+                            <span class="text-[8px] bg-blue-50 text-blue-600 px-1 py-0.2 rounded font-bold">Tempatan</span>
                         </div>
-                        <div class="flex items-baseline space-x-2">
-                            <span class="text-3xl font-extrabold text-slate-950">94.76%</span>
-                            <span class="text-xs font-bold text-emerald-500 flex items-center bg-emerald-50 px-1.5 py-0.5 rounded">
-                                <i class="fa-solid fa-caret-up mr-1"></i> 0.12%
+                        <div class="flex items-baseline space-x-1.5">
+                            <span class="text-2xl font-extrabold text-slate-950">94.76%</span>
+                            <span class="text-[10px] font-bold text-emerald-500 flex items-center bg-emerald-50 px-1.5 py-0.5 rounded">
+                                <i class="fa-solid fa-caret-up mr-0.5"></i> 0.12%
                             </span>
                         </div>
-                        <span class="text-[10px] text-slate-400 block">berbanding 94.64% (2024)</span>
+                        <span class="text-[10px] text-slate-400 block">lwn 94.64% (2024)</span>
                     </div>
-                    <div class="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center text-blue-600 text-lg">
+                    <div class="w-10 h-10 bg-blue-50 rounded-lg flex items-center justify-center text-blue-600 text-md">
                         <i class="fa-solid fa-id-card"></i>
                     </div>
                 </div>
 
                 <!-- Card 3: GM Keseluruhan -->
-                <div class="bg-white rounded-xl p-5 shadow-sm border border-slate-100 flex items-center justify-between hover:shadow-md transition-shadow">
+                <div class="bg-white rounded-xl p-4 shadow-sm border border-slate-100 flex items-center justify-between hover:shadow-md transition-shadow">
                     <div class="space-y-1">
                         <div class="flex items-center gap-1.5">
-                            <span class="text-xs font-semibold text-slate-500 uppercase tracking-wider block">GM Keseluruhan</span>
-                            <span class="text-[9px] bg-slate-100 text-slate-600 px-1 py-0.2 rounded font-bold">Semua</span>
+                            <span class="text-[10px] font-bold text-slate-500 uppercase tracking-wider block">GM Keseluruhan</span>
+                            <span class="text-[8px] bg-slate-100 text-slate-600 px-1 py-0.2 rounded font-bold">Semua</span>
                         </div>
-                        <div class="flex items-baseline space-x-2">
-                            <span class="text-3xl font-extrabold text-slate-950">87.41%</span>
-                            <span class="text-xs font-bold text-rose-500 flex items-center bg-rose-50 px-1.5 py-0.5 rounded">
-                                <i class="fa-solid fa-caret-down mr-1"></i> 3.28%
+                        <div class="flex items-baseline space-x-1.5">
+                            <span class="text-2xl font-extrabold text-slate-950">87.41%</span>
+                            <span class="text-[10px] font-bold text-rose-500 flex items-center bg-rose-50 px-1.5 py-0.5 rounded">
+                                <i class="fa-solid fa-caret-down mr-0.5"></i> 3.28%
                             </span>
                         </div>
-                        <span class="text-[10px] text-slate-400 block">berbanding 90.69% (2024)</span>
+                        <span class="text-[10px] text-slate-400 block">lwn 90.69% (2024)</span>
                     </div>
-                    <div class="w-12 h-12 bg-slate-100 rounded-xl flex items-center justify-center text-slate-600 text-lg">
+                    <div class="w-10 h-10 bg-slate-100 rounded-lg flex items-center justify-center text-slate-600 text-md">
                         <i class="fa-solid fa-chart-line"></i>
                     </div>
                 </div>
 
                 <!-- Card 4: GM Warganegara -->
-                <div class="bg-white rounded-xl p-5 shadow-sm border border-slate-100 flex items-center justify-between hover:shadow-md transition-shadow">
+                <div class="bg-white rounded-xl p-4 shadow-sm border border-slate-100 flex items-center justify-between hover:shadow-md transition-shadow">
                     <div class="space-y-1">
                         <div class="flex items-center gap-1.5">
-                            <span class="text-xs font-semibold text-slate-500 uppercase tracking-wider block">GM Warganegara</span>
-                            <span class="text-[9px] bg-pink-50 text-pink-600 px-1 py-0.2 rounded font-bold">Tempatan</span>
+                            <span class="text-[10px] font-bold text-slate-500 uppercase tracking-wider block">GM Warganegara</span>
+                            <span class="text-[8px] bg-pink-50 text-pink-600 px-1 py-0.2 rounded font-bold">Tempatan</span>
                         </div>
-                        <div class="flex items-baseline space-x-2">
-                            <span class="text-3xl font-extrabold text-slate-950">92.37%</span>
-                            <span class="text-xs font-bold text-rose-500 flex items-center bg-rose-50 px-1.5 py-0.5 rounded">
-                                <i class="fa-solid fa-caret-down mr-1"></i> 0.67%
+                        <div class="flex items-baseline space-x-1.5">
+                            <span class="text-2xl font-extrabold text-slate-950">92.37%</span>
+                            <span class="text-[10px] font-bold text-rose-500 flex items-center bg-rose-50 px-1.5 py-0.5 rounded">
+                                <i class="fa-solid fa-caret-down mr-0.5"></i> 0.67%
                             </span>
                         </div>
-                        <span class="text-[10px] text-slate-400 block">berbanding 93.04% (2024)</span>
+                        <span class="text-[10px] text-slate-400 block">lwn 93.04% (2024)</span>
                     </div>
-                    <div class="w-12 h-12 bg-pink-50 rounded-xl flex items-center justify-center text-pink-600 text-lg">
+                    <div class="w-10 h-10 bg-pink-50 rounded-lg flex items-center justify-center text-pink-600 text-md">
                         <i class="fa-solid fa-users"></i>
+                    </div>
+                </div>
+
+                <!-- Card 5: Respon Keseluruhan -->
+                <div class="bg-white rounded-xl p-4 shadow-sm border border-slate-100 flex items-center justify-between hover:shadow-md transition-shadow">
+                    <div class="space-y-1">
+                        <div class="flex items-center gap-1.5">
+                            <span class="text-[10px] font-bold text-slate-500 uppercase tracking-wider block">Respon Keseluruhan</span>
+                            <span class="text-[8px] bg-teal-50 text-teal-600 px-1 py-0.2 rounded font-bold">2025</span>
+                        </div>
+                        <div class="flex items-baseline space-x-1">
+                            <span class="text-2xl font-extrabold text-slate-950">92.70%</span>
+                            <span class="text-[9px] text-slate-500 font-semibold">(10k+)</span>
+                        </div>
+                        <span class="text-[10px] text-slate-400 block">lwn 93.10% (2024)</span>
+                    </div>
+                    <div class="w-10 h-10 bg-teal-50 rounded-lg flex items-center justify-center text-teal-600 text-md">
+                        <i class="fa-solid fa-envelope-open-text"></i>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Bahagian Graf Pengasingan Berbentuk Bar (GE vs GM) -->
-        <section class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            
-            <!-- Graf 1: Kadar Bekerja Graduan (GE) -->
-            <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-100 space-y-4">
-                <div class="flex items-center justify-between">
-                    <div>
-                        <h3 class="text-lg font-bold text-slate-950 flex items-center gap-2">
-                            <span class="w-3 h-3 bg-blue-600 rounded-full"></span>
-                            Trend Kadar Bekerja Graduan (GE)
-                        </h3>
-                        <p class="text-xs text-slate-500 mt-1">
-                            Perbandingan Kontras: Keseluruhan <span class="font-semibold text-slate-700">(Warganegara + Bukan Warganegara)</span> lwn Warganegara (2020-2025)
-                        </p>
+        <!-- Bahagian Graf Pengasingan Berbentuk Bar (GE vs GM vs Respon) -->
+        <section class="space-y-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                
+                <!-- Graf 1: Kadar Bekerja Graduan (GE) -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-100 space-y-4">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <h3 class="text-lg font-bold text-slate-950 flex items-center gap-2">
+                                <span class="w-3 h-3 bg-blue-600 rounded-full"></span>
+                                Trend Kadar Bekerja Graduan (GE)
+                            </h3>
+                            <p class="text-xs text-slate-500 mt-1">
+                                Perbandingan Kontras: Keseluruhan <span class="font-semibold text-slate-700">(Warganegara + Bukan Warganegara)</span> lwn Warganegara (2020-2025)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="relative min-h-[300px] w-full">
+                        <canvas id="geChart"></canvas>
                     </div>
                 </div>
-                <div class="relative min-h-[300px] w-full">
-                    <canvas id="geChart"></canvas>
+
+                <!-- Graf 2: Kadar Kebolehpasaran Graduan (GM) -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-100 space-y-4">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <h3 class="text-lg font-bold text-slate-950 flex items-center gap-2">
+                                <span class="w-3 h-3 bg-pink-600 rounded-full"></span>
+                                Trend Kadar Kebolehpasaran Graduan (GM)
+                            </h3>
+                            <p class="text-xs text-slate-500 mt-1">
+                                Perbandingan Kontras: Keseluruhan <span class="font-semibold text-slate-700">(Warganegara + Bukan Warganegara)</span> lwn Warganegara (2020-2025)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="relative min-h-[300px] w-full">
+                        <canvas id="gmChart"></canvas>
+                    </div>
                 </div>
             </div>
 
-            <!-- Graf 2: Kadar Kebolehpasaran Graduan (GM) -->
+            <!-- Graf 3: Kadar Respon & Jumlah Responden (Lebar Penuh) -->
             <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-100 space-y-4">
-                <div class="flex items-center justify-between">
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
                     <div>
                         <h3 class="text-lg font-bold text-slate-950 flex items-center gap-2">
-                            <span class="w-3 h-3 bg-pink-600 rounded-full"></span>
-                            Trend Kadar Kebolehpasaran Graduan (GM)
+                            <span class="w-3 h-3 bg-teal-600 rounded-full"></span>
+                            Trend Kadar Respon & Jumlah Graduan Respon (2020 - 2025)
                         </h3>
                         <p class="text-xs text-slate-500 mt-1">
-                            Perbandingan Kontras: Keseluruhan <span class="font-semibold text-slate-700">(Warganegara + Bukan Warganegara)</span> lwn Warganegara (2020-2025)
+                            Paparan Komposit: Bar mewakili **Jumlah Responden (Bilangan Orang)** | Garis mewakili **Kadar Respon (%)**
                         </p>
                     </div>
+                    <span class="text-[10px] bg-emerald-50 text-emerald-700 px-2.5 py-1 rounded-md border border-emerald-200 font-semibold self-start sm:self-center">
+                        <i class="fa-solid fa-clock mr-1"></i> Siri masa lengkap 2020 - 2025
+                    </span>
                 </div>
-                <div class="relative min-h-[300px] w-full">
-                    <canvas id="gmChart"></canvas>
+                <div class="relative min-h-[320px] w-full">
+                    <canvas id="responseChart"></canvas>
                 </div>
             </div>
-
         </section>
 
         <!-- Bahagian Jadual Data Mentah -->
@@ -191,9 +231,9 @@
                 <div>
                     <h2 class="text-xl font-bold text-slate-900 flex items-center gap-2">
                         <i class="fa-solid fa-table text-indigo-600"></i>
-                        Jadual Komparatif Data Mentah (2020 - 2025)
+                        Jadual Komparatif Data Mentah Komprehensif (2020 - 2025)
                     </h2>
-                    <p class="text-sm text-slate-500 mt-1">Siri data berangka rasmi dari Sistem Anjung SKPG KPT. *Keseluruhan merangkumi semua graduan.</p>
+                    <p class="text-sm text-slate-500 mt-1">Siri data berangka rasmi dari Sistem Anjung SKPG KPT, termasuk kemasukan data respon terbaharu.</p>
                 </div>
                 <div>
                     <button onclick="exportToCSV()" class="w-full sm:w-auto px-4 py-2 bg-slate-900 hover:bg-slate-800 text-white rounded-lg text-xs font-semibold shadow transition-all flex items-center justify-center gap-1.5">
@@ -207,11 +247,21 @@
                 <table class="w-full text-sm text-left text-slate-500">
                     <thead class="text-xs text-slate-700 uppercase bg-slate-50 border-b border-slate-100">
                         <tr>
-                            <th scope="col" class="px-6 py-4 font-bold text-slate-900">Tahun</th>
-                            <th scope="col" class="px-6 py-4 text-center font-bold text-slate-700 bg-slate-100/50">GE Keseluruhan (%) <span class="text-[9px] block lowercase font-normal">(Warganegara + Bukan)</span></th>
-                            <th scope="col" class="px-6 py-4 text-center font-bold text-blue-900 bg-blue-50">GE Warganegara (%) <span class="text-[9px] block lowercase font-normal">(Tempatan Sahaja)</span></th>
-                            <th scope="col" class="px-6 py-4 text-center font-bold text-slate-700 bg-slate-100/50">GM Keseluruhan (%) <span class="text-[9px] block lowercase font-normal">(Warganegara + Bukan)</span></th>
-                            <th scope="col" class="px-6 py-4 text-center font-bold text-pink-900 bg-pink-50">GM Warganegara (%) <span class="text-[9px] block lowercase font-normal">(Tempatan Sahaja)</span></th>
+                            <th scope="col" rowspan="2" class="px-4 py-4 font-bold text-slate-900 border-r border-slate-100">Tahun</th>
+                            <th scope="col" colspan="2" class="px-4 py-2 text-center font-bold text-slate-700 border-b border-slate-100 bg-slate-100/30">Kadar Bekerja (GE) (%)</th>
+                            <th scope="col" colspan="2" class="px-4 py-2 text-center font-bold text-slate-700 border-b border-slate-100 bg-slate-100/30 border-r border-slate-100">Kadar Kebolehpasaran (GM) (%)</th>
+                            <th scope="col" colspan="2" class="px-4 py-2 text-center font-bold text-teal-950 bg-teal-50/50 border-b border-slate-100">Data Respon Keseluruhan</th>
+                            <th scope="col" colspan="2" class="px-4 py-2 text-center font-bold text-teal-900 bg-teal-50/20 border-b border-slate-100">Data Respon Warganegara</th>
+                        </tr>
+                        <tr class="text-[10px] bg-slate-50/50 border-b border-slate-100">
+                            <th class="px-4 py-2 text-center font-semibold text-slate-600">Keseluruhan</th>
+                            <th class="px-4 py-2 text-center font-semibold text-blue-800 bg-blue-50/20">Warganegara</th>
+                            <th class="px-4 py-2 text-center font-semibold text-slate-600">Keseluruhan</th>
+                            <th class="px-4 py-2 text-center font-semibold text-pink-800 bg-pink-50/20 border-r border-slate-100">Warganegara</th>
+                            <th class="px-4 py-2 text-center font-semibold text-teal-800 bg-teal-50/30">Kadar (%)</th>
+                            <th class="px-4 py-2 text-center font-semibold text-teal-800 bg-teal-50/30 border-r border-slate-100">Bilangan (N)</th>
+                            <th class="px-4 py-2 text-center font-semibold text-emerald-800 bg-teal-50/10">Kadar (%)</th>
+                            <th class="px-4 py-2 text-center font-semibold text-emerald-800 bg-teal-50/10">Bilangan (N)</th>
                         </tr>
                     </thead>
                     <tbody class="divide-y divide-slate-100" id="data-table-rows">
@@ -221,7 +271,7 @@
             </div>
         </section>
 
-        <!-- Bahagian Definisi & Metodologi (Dipindahkan ke Bawah Sekali) -->
+        <!-- Bahagian Definisi & Metodologi -->
         <section class="bg-white rounded-2xl p-6 shadow-sm border border-slate-100 space-y-6">
             <div>
                 <h2 class="text-xl font-bold text-slate-900 flex items-center gap-2">
@@ -231,68 +281,71 @@
                 <p class="text-sm text-slate-500 mt-1">Rujukan terperinci takrifan yang digunapakai bagi penilaian kadar kebolehpasaran universiti.</p>
             </div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
                 <!-- KADAR BEKERJA GRADUAN (GE) -->
-                <div class="bg-gradient-to-br from-blue-50 to-indigo-50/50 rounded-xl p-5 border border-blue-100 relative overflow-hidden">
-                    <div class="absolute right-0 top-0 translate-x-4 -translate-y-4 text-blue-100 text-8xl font-bold select-none opacity-40">GE</div>
+                <div class="bg-gradient-to-br from-blue-50 to-indigo-50/50 rounded-xl p-5 border border-blue-100 relative overflow-hidden flex flex-col justify-between">
+                    <div class="absolute right-0 top-0 translate-x-4 -translate-y-4 text-blue-100 text-8xl font-bold select-none opacity-20">GE</div>
                     <div class="relative z-10 space-y-4">
                         <div class="flex items-center justify-between">
-                            <span class="bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Definisi Baharu</span>
+                            <span class="bg-blue-600 text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Definisi Baharu</span>
                             <span class="text-xs text-blue-700 font-semibold"><i class="fa-solid fa-circle-check mr-1"></i> KPI RMKe-12</span>
                         </div>
                         <div>
-                            <h3 class="text-lg font-bold text-blue-900">Kadar Bekerja Graduan (Graduate Employability)</h3>
-                            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
-                                Perkadaran graduan baharu bekerja kepada bilangan graduan baharu dalam tenaga buruh. Kadar ini mengukur peratus graduan baharu di dalam tenaga buruh yang bekerja.
-                            </p>
-                            <p class="text-xs text-slate-500 italic mt-1">
-                                *Nota: Kategori <strong>Keseluruhan</strong> mengandungi jumlah agregat bagi graduan Warganegara dan graduan Bukan Warganegara.
+                            <h3 class="text-md font-bold text-blue-900">Kadar Bekerja Graduan (GE)</h3>
+                            <p class="text-xs text-slate-600 mt-1 leading-relaxed">
+                                Perkadaran graduan baharu bekerja kepada bilangan graduan baharu dalam tenaga buruh. Mengukur peratusan pencari kerja yang berjaya mendapat pekerjaan.
                             </p>
                         </div>
-                        <!-- Formula GE -->
-                        <div class="bg-white p-3.5 rounded-lg border border-blue-100 shadow-sm">
-                            <span class="text-[10px] font-bold text-slate-400 block uppercase tracking-wider mb-2">Formula Pengiraan (GE)</span>
-                            <div class="flex items-center gap-3 text-xs text-slate-700">
-                                <div class="font-semibold text-right leading-tight text-blue-900">Kadar Bekerja<br>Graduan</div>
-                                <div class="text-lg font-light text-slate-400">=</div>
-                                <div class="flex flex-col items-center flex-grow text-center">
-                                    <span class="pb-1 border-b border-slate-300 w-full font-medium">Bilangan Graduan Baharu yang Bekerja</span>
-                                    <span class="pt-1 font-medium text-slate-500">Bilangan Graduan Baharu dalam Tenaga Buruh</span>
-                                </div>
-                                <div class="text-sm font-semibold text-slate-600">× 100</div>
+                        <div class="bg-white p-3 rounded-lg border border-blue-100 shadow-xs">
+                            <span class="text-[9px] font-bold text-slate-400 block uppercase tracking-wider mb-1">Formula Pengiraan (GE)</span>
+                            <div class="text-[10px] text-slate-600">
+                                <span class="font-semibold text-blue-900">Bekerja / Tenaga Buruh × 100</span>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- KADAR KEBOLEHPASARAN GRADUAN (GM) -->
-                <div class="bg-gradient-to-br from-purple-50 to-pink-50/50 rounded-xl p-5 border border-purple-100 relative overflow-hidden">
-                    <div class="absolute right-0 top-0 translate-x-4 -translate-y-4 text-purple-100 text-8xl font-bold select-none opacity-40">GM</div>
+                <div class="bg-gradient-to-br from-purple-50 to-pink-50/50 rounded-xl p-5 border border-purple-100 relative overflow-hidden flex flex-col justify-between">
+                    <div class="absolute right-0 top-0 translate-x-4 -translate-y-4 text-purple-100 text-8xl font-bold select-none opacity-20">GM</div>
                     <div class="relative z-10 space-y-4">
                         <div class="flex items-center justify-between">
-                            <span class="bg-purple-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Definisi Sebelum</span>
+                            <span class="bg-purple-600 text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Definisi Sebelum</span>
                             <span class="text-xs text-purple-700 font-semibold"><i class="fa-solid fa-clock-rotate-left mr-1"></i> Rujukan Tradisional</span>
                         </div>
                         <div>
-                            <h3 class="text-lg font-bold text-purple-900">Kadar Kebolehpasaran Graduan (Graduate Marketability)</h3>
-                            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
-                                Keupayaan graduan untuk dipasarkan di dalam industri, iaitu mempunyai kecekapan bagi mendapat pekerjaan dan mengekalkan pekerjaan yang bersesuaian.
-                            </p>
-                            <p class="text-xs text-slate-500 italic mt-1">
-                                *Nota: Kategori <strong>Keseluruhan</strong> mengandungi jumlah agregat bagi graduan Warganegara dan graduan Bukan Warganegara.
+                            <h3 class="text-md font-bold text-purple-900">Kadar Kebolehpasaran Graduan (GM)</h3>
+                            <p class="text-xs text-slate-600 mt-1 leading-relaxed">
+                                Keupayaan graduan dipasarkan, merangkumi mereka yang bekerja, melanjutkan pengajian, meningkatkan kemahiran, atau sedang menunggu penempatan.
                             </p>
                         </div>
-                        <!-- Formula GM -->
-                        <div class="bg-white p-3.5 rounded-lg border border-purple-100 shadow-sm">
-                            <span class="text-[10px] font-bold text-slate-400 block uppercase tracking-wider mb-2">Formula Pengiraan (GM)</span>
-                            <div class="flex items-center gap-3 text-xs text-slate-700">
-                                <div class="font-semibold text-right leading-tight text-purple-900">Kadar<br>Kebolehpasaran</div>
-                                <div class="text-lg font-light text-slate-400">=</div>
-                                <div class="flex flex-col items-center flex-grow text-center">
-                                    <span class="pb-1 border-b border-slate-300 w-full font-medium text-[10px]">Bekerja + Lanjut Pengajian + Tingkat Kemahiran + Menunggu Penempatan</span>
-                                    <span class="pt-1 font-medium text-slate-500 text-[10px]">Bilangan Responden dalam Kajian Pengesan Graduan</span>
-                                </div>
-                                <div class="text-sm font-semibold text-slate-600">× 100</div>
+                        <div class="bg-white p-3 rounded-lg border border-purple-100 shadow-xs">
+                            <span class="text-[9px] font-bold text-slate-400 block uppercase tracking-wider mb-1">Formula Pengiraan (GM)</span>
+                            <div class="text-[10px] text-slate-600">
+                                <span class="font-semibold text-purple-900">(Bekerja + Melanjut + Up-skill + Menunggu) / Jumlah Responden × 100</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- KADAR RESPON GRADUAN -->
+                <div class="bg-gradient-to-br from-teal-50 to-emerald-50/50 rounded-xl p-5 border border-teal-100 relative overflow-hidden flex flex-col justify-between">
+                    <div class="absolute right-0 top-0 translate-x-4 -translate-y-4 text-teal-100 text-8xl font-bold select-none opacity-20">CR</div>
+                    <div class="relative z-10 space-y-4">
+                        <div class="flex items-center justify-between">
+                            <span class="bg-teal-600 text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Metrik Liputan</span>
+                            <span class="text-xs text-teal-700 font-semibold"><i class="fa-solid fa-users mr-1"></i> Kadar Respon</span>
+                        </div>
+                        <div>
+                            <h3 class="text-md font-bold text-teal-900">Kadar & Jumlah Respon (Response Rate)</h3>
+                            <p class="text-xs text-slate-600 mt-1 leading-relaxed">
+                                Nisbah graduan yang menyertai kajian pengesan graduan (SKPG) berbanding jumlah keseluruhan graduan layak yang bergraduasi pada tahun berkenaan.
+                            </p>
+                        </div>
+                        <div class="bg-white p-3 rounded-lg border border-teal-100 shadow-xs">
+                            <span class="text-[9px] font-bold text-slate-400 block uppercase tracking-wider mb-1">Formula Pengiraan</span>
+                            <div class="text-[10px] text-slate-600">
+                                <span class="font-semibold text-teal-900">Bilangan Responden / Bilangan Layak Bergraduasi × 100</span>
                             </div>
                         </div>
                     </div>
@@ -307,7 +360,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left">
             <div>
                 <p class="font-semibold text-slate-200">Universiti Malaya Dashboard</p>
-                <p class="mt-1">Sumber Data: Sistem Anjung SKPG KPT (Graduate Employability & Graduate Marketability)</p>
+                <p class="mt-1">Sumber Data: Sistem Anjung SKPG KPT (Graduate Employability, Graduate Marketability & Response Rate)</p>
             </div>
             <div>
                 <p>© 2026 Universiti Malaya. Dibina mengikut Spesifikasi & Trend Laporan Rasmi.</p>
@@ -317,14 +370,50 @@
 
     <!-- Logik Pengaturcaraan JavaScript -->
     <script>
-        // Data mentah dari dokumen trend rasmi (2020-2025)
+        // Data mentah lengkap dari dokumen trend rasmi (2020-2025)
         const dbData = [
-            { tahun: 2020, ge_keseluruhan: 83.40, ge_warganegara: 84.01, gm_keseluruhan: 82.79, gm_warganegara: 83.53 },
-            { tahun: 2021, ge_keseluruhan: 88.06, ge_warganegara: 88.51, gm_keseluruhan: 86.14, gm_warganegara: 86.60 },
-            { tahun: 2022, ge_keseluruhan: 86.34, ge_warganegara: 92.24, gm_keseluruhan: 88.36, gm_warganegara: 89.76 },
-            { tahun: 2023, ge_keseluruhan: 86.83, ge_warganegara: 92.56, gm_keseluruhan: 89.07, gm_warganegara: 90.54 },
-            { tahun: 2024, ge_keseluruhan: 92.56, ge_warganegara: 94.64, gm_keseluruhan: 90.69, gm_warganegara: 93.04 },
-            { tahun: 2025, ge_keseluruhan: 91.22, ge_warganegara: 94.76, gm_keseluruhan: 87.41, gm_warganegara: 92.37 }
+            { 
+                tahun: 2020, 
+                ge_keseluruhan: 83.40, ge_warganegara: 84.01, 
+                gm_keseluruhan: 82.79, gm_warganegara: 83.53,
+                resp_rate_keseluruhan: 87.8, resp_num_keseluruhan: 4631,
+                resp_rate_warganegara: 90.9, resp_num_warganegara: 4236
+            },
+            { 
+                tahun: 2021, 
+                ge_keseluruhan: 88.06, ge_warganegara: 88.51, 
+                gm_keseluruhan: 86.14, gm_warganegara: 86.60,
+                resp_rate_keseluruhan: 91.2, resp_num_keseluruhan: 6118,
+                resp_rate_warganegara: 97.2, resp_num_warganegara: 5770
+            },
+            { 
+                tahun: 2022, 
+                ge_keseluruhan: 86.34, ge_warganegara: 92.24, 
+                gm_keseluruhan: 88.36, gm_warganegara: 89.76,
+                resp_rate_keseluruhan: 92.8, resp_num_keseluruhan: 7068,
+                resp_rate_warganegara: 96.6, resp_num_warganegara: 6418
+            },
+            { 
+                tahun: 2023, 
+                ge_keseluruhan: 86.83, ge_warganegara: 92.56, 
+                gm_keseluruhan: 89.07, gm_warganegara: 90.54,
+                resp_rate_keseluruhan: 92.2, resp_num_keseluruhan: 7469,
+                resp_rate_warganegara: 97.2, resp_num_warganegara: 6689
+            },
+            { 
+                tahun: 2024, 
+                ge_keseluruhan: 92.56, ge_warganegara: 94.64, 
+                gm_keseluruhan: 90.69, gm_warganegara: 93.04,
+                resp_rate_keseluruhan: 93.1, resp_num_keseluruhan: 8436,
+                resp_rate_warganegara: 98.6, resp_num_warganegara: 7382
+            },
+            { 
+                tahun: 2025, 
+                ge_keseluruhan: 91.22, ge_warganegara: 94.76, 
+                gm_keseluruhan: 87.41, gm_warganegara: 92.37,
+                resp_rate_keseluruhan: 92.7, resp_num_keseluruhan: 10307,
+                resp_rate_warganegara: 100.0, resp_num_warganegara: 7678
+            }
         ];
 
         window.onload = function() {
@@ -332,26 +421,34 @@
             initCharts();
         };
 
-        // Rendah jadual data mentah
+        // Rendah jadual data mentah dengan lajur respon tambahan
         function renderTable() {
             const tbody = document.getElementById('data-table-rows');
             tbody.innerHTML = '';
 
             dbData.forEach(row => {
                 const tr = document.createElement('tr');
-                tr.className = "hover:bg-slate-50/50 transition-colors";
+                tr.className = "hover:bg-slate-50/50 transition-colors text-xs sm:text-sm";
+                
+                const formatRate = (val) => val !== null ? `${val.toFixed(1)}%` : '<span class="text-slate-300">-</span>';
+                const formatNum = (val) => val !== null ? val.toLocaleString() : '<span class="text-slate-300">-</span>';
+
                 tr.innerHTML = `
-                    <td class="px-6 py-4 font-bold text-slate-900">${row.tahun}</td>
-                    <td class="px-6 py-4 text-center font-medium text-slate-800 bg-slate-50/50">${row.ge_keseluruhan.toFixed(2)}%</td>
-                    <td class="px-6 py-4 text-center font-semibold text-blue-800 bg-blue-50/40">${row.ge_warganegara.toFixed(2)}%</td>
-                    <td class="px-6 py-4 text-center font-medium text-slate-800 bg-slate-50/50">${row.gm_keseluruhan.toFixed(2)}%</td>
-                    <td class="px-6 py-4 text-center font-semibold text-pink-800 bg-pink-50/40">${row.gm_warganegara.toFixed(2)}%</td>
+                    <td class="px-4 py-4 font-bold text-slate-900 border-r border-slate-100">${row.tahun}</td>
+                    <td class="px-4 py-4 text-center font-medium text-slate-800">${row.ge_keseluruhan.toFixed(2)}%</td>
+                    <td class="px-4 py-4 text-center font-semibold text-blue-800 bg-blue-50/20">${row.ge_warganegara.toFixed(2)}%</td>
+                    <td class="px-4 py-4 text-center font-medium text-slate-800">${row.gm_keseluruhan.toFixed(2)}%</td>
+                    <td class="px-4 py-4 text-center font-semibold text-pink-800 bg-pink-50/20 border-r border-slate-100">${row.gm_warganegara.toFixed(2)}%</td>
+                    <td class="px-4 py-4 text-center font-medium text-slate-800 bg-teal-50/10">${formatRate(row.resp_rate_keseluruhan)}</td>
+                    <td class="px-4 py-4 text-center font-medium text-slate-800 bg-teal-50/10 border-r border-slate-100">${formatNum(row.resp_num_keseluruhan)}</td>
+                    <td class="px-4 py-4 text-center font-semibold text-emerald-800 bg-teal-50/5">${formatRate(row.resp_rate_warganegara)}</td>
+                    <td class="px-4 py-4 text-center font-semibold text-emerald-800 bg-teal-50/5">${formatNum(row.resp_num_warganegara)}</td>
                 `;
                 tbody.appendChild(tr);
             });
         }
 
-        // Inisialisasi Dua Carta Bar Berbeza (Satu untuk GE, Satu untuk GM)
+        // Inisialisasi Tiga Carta Bar (GE, GM, & Response Chart)
         function initCharts() {
             const labels = dbData.map(d => d.tahun);
 
@@ -364,7 +461,7 @@
                     datasets: [
                         {
                             label: 'GE Keseluruhan (Warganegara + Bukan)',
-                            backgroundColor: '#64748b', // Slate Gray - Neutral Baseline
+                            backgroundColor: '#64748b', // Slate Gray
                             borderColor: '#475569',
                             borderWidth: 1,
                             borderRadius: 6,
@@ -372,7 +469,7 @@
                         },
                         {
                             label: 'GE Warganegara',
-                            backgroundColor: '#2563eb', // Vibrant Royal Blue - Pop!
+                            backgroundColor: '#2563eb', // Royal Blue
                             borderColor: '#1d4ed8',
                             borderWidth: 1,
                             borderRadius: 6,
@@ -392,7 +489,7 @@
                     datasets: [
                         {
                             label: 'GM Keseluruhan (Warganegara + Bukan)',
-                            backgroundColor: '#64748b', // Slate Gray - Neutral Baseline
+                            backgroundColor: '#64748b', // Slate Gray
                             borderColor: '#475569',
                             borderWidth: 1,
                             borderRadius: 6,
@@ -400,7 +497,7 @@
                         },
                         {
                             label: 'GM Warganegara',
-                            backgroundColor: '#db2777', // Vibrant Magenta/Pink - Pop!
+                            backgroundColor: '#db2777', // Magenta/Pink
                             borderColor: '#be185d',
                             borderWidth: 1,
                             borderRadius: 6,
@@ -410,9 +507,147 @@
                 },
                 options: getChartOptions('Kadar Kebolehpasaran (%)')
             });
+
+            // 3. Dual-Axis Chart untuk Kadar Respon (%) & Jumlah Responden (Bilangan)
+            const respCtx = document.getElementById('responseChart').getContext('2d');
+            new Chart(respCtx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        // Bars: Jumlah Responden (Paksi Kiri - y1)
+                        {
+                            label: 'Jumlah Respon Keseluruhan (Bilangan)',
+                            type: 'bar',
+                            backgroundColor: '#94a3b8', // Slate Kelabu Cerah
+                            borderColor: '#cbd5e1',
+                            borderRadius: 6,
+                            data: dbData.map(d => d.resp_num_keseluruhan),
+                            yAxisID: 'y1',
+                            order: 2
+                        },
+                        {
+                            label: 'Jumlah Respon Warganegara (Bilangan)',
+                            type: 'bar',
+                            backgroundColor: '#0d9488', // Teal
+                            borderColor: '#0f766e',
+                            borderRadius: 6,
+                            data: dbData.map(d => d.resp_num_warganegara),
+                            yAxisID: 'y1',
+                            order: 2
+                        },
+                        // Lines: Kadar Respon % (Paksi Kanan - y2)
+                        {
+                            label: 'Kadar Respon Keseluruhan (%)',
+                            type: 'line',
+                            borderColor: '#475569', // Dark Slate Line
+                            backgroundColor: '#475569',
+                            borderWidth: 3,
+                            fill: false,
+                            tension: 0.15,
+                            pointStyle: 'circle',
+                            pointRadius: 6,
+                            data: dbData.map(d => d.resp_rate_keseluruhan),
+                            yAxisID: 'y2',
+                            order: 1
+                        },
+                        {
+                            label: 'Kadar Respon Warganegara (%)',
+                            type: 'line',
+                            borderColor: '#14b8a6', // Bright Teal Line
+                            backgroundColor: '#14b8a6',
+                            borderWidth: 3,
+                            fill: false,
+                            tension: 0.15,
+                            pointStyle: 'rectRot',
+                            pointRadius: 6,
+                            data: dbData.map(d => d.resp_rate_warganegara),
+                            yAxisID: 'y2',
+                            order: 1
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: true,
+                            position: 'bottom',
+                            labels: {
+                                boxWidth: 12,
+                                padding: 15,
+                                font: { family: 'Plus Jakarta Sans', size: 11, weight: '500' }
+                            }
+                        },
+                        tooltip: {
+                            backgroundColor: '#0f172a',
+                            padding: 12,
+                            titleFont: { family: 'Plus Jakarta Sans', size: 12, weight: 'bold' },
+                            bodyFont: { family: 'Plus Jakarta Sans', size: 12 },
+                            cornerRadius: 8,
+                            callbacks: {
+                                label: function(context) {
+                                    let label = context.dataset.label || '';
+                                    if (label) {
+                                        label += ': ';
+                                    }
+                                    if (context.dataset.yAxisID === 'y2') {
+                                        label += context.raw !== null ? context.raw.toFixed(1) + '%' : 'Tiada Data';
+                                    } else {
+                                        label += context.raw !== null ? context.raw.toLocaleString() + ' orang' : 'Tiada Data';
+                                    }
+                                    return label;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            grid: { display: false },
+                            ticks: { font: { family: 'Plus Jakarta Sans', size: 11 } }
+                        },
+                        y1: {
+                            type: 'linear',
+                            display: true,
+                            position: 'left',
+                            title: {
+                                display: true,
+                                text: 'Bilangan Responden (Orang)',
+                                font: { family: 'Plus Jakarta Sans', size: 11, weight: '600' }
+                            },
+                            ticks: {
+                                font: { family: 'Plus Jakarta Sans', size: 11 }
+                            },
+                            grid: {
+                                drawOnChartArea: true // Tunjukkan garisan grid hanya pada satu paksi sahaja
+                            }
+                        },
+                        y2: {
+                            type: 'linear',
+                            display: true,
+                            position: 'right',
+                            min: 80, // Dikecilkan julat untuk menunjukkan beza trend 80%-100% secara optimum
+                            max: 102,
+                            title: {
+                                display: true,
+                                text: 'Kadar Respon (%)',
+                                font: { family: 'Plus Jakarta Sans', size: 11, weight: '600' }
+                            },
+                            ticks: {
+                                callback: function(val) { return val + '%'; },
+                                font: { family: 'Plus Jakarta Sans', size: 11 }
+                            },
+                            grid: {
+                                drawOnChartArea: false // Matikan garisan sekunder supaya tidak bertindih serabut
+                            }
+                        }
+                    }
+                }
+            });
         }
 
-        // Templat Tetapan (Options) Chart.js untuk Standardisasi Reka Bentuk Bar
+        // Templat Tetapan (Options) Chart.js untuk Standardisasi Reka Bentuk Bar (GE/GM)
         function getChartOptions(yAxisTitle) {
             return {
                 responsive: true,
@@ -423,7 +658,6 @@
                         position: 'bottom',
                         labels: {
                             boxWidth: 12,
-                            usePointStyle: false, // Menunjukkan bentuk kotak bar dalam petunjuk legend
                             padding: 15,
                             font: { family: 'Plus Jakarta Sans', size: 11, weight: '500' }
                         }
@@ -447,7 +681,7 @@
                         ticks: { font: { family: 'Plus Jakarta Sans', size: 11 } }
                     },
                     y: {
-                        min: 70, // Bermula dari 70% bagi melihat perbezaan variasi bar dengan jelas
+                        min: 70, 
                         max: 100,
                         title: {
                             display: true,
@@ -466,16 +700,21 @@
         // Fungsi Eksport Data Mentah kepada format CSV
         function exportToCSV() {
             let csvContent = "data:text/csv;charset=utf-8,";
-            csvContent += "Tahun,GE Keseluruhan (%),GE Warganegara (%),GM Keseluruhan (%),GM Warganegara (%)\n";
+            csvContent += "Tahun,GE Keseluruhan (%),GE Warganegara (%),GM Keseluruhan (%),GM Warganegara (%),Kadar Respon Keseluruhan (%),Bilangan Respon Keseluruhan,Kadar Respon Warganegara (%),Bilangan Respon Warganegara\n";
 
             dbData.forEach(r => {
-                csvContent += `${r.tahun},${r.ge_keseluruhan},${r.ge_warganegara},${r.gm_keseluruhan},${r.gm_warganegara}\n`;
+                const r_rate_k = r.resp_rate_keseluruhan !== null ? r.resp_rate_keseluruhan : "Tiada Data";
+                const r_num_k = r.resp_num_keseluruhan !== null ? r.resp_num_keseluruhan : "Tiada Data";
+                const r_rate_w = r.resp_rate_warganegara !== null ? r.resp_rate_warganegara : "Tiada Data";
+                const r_num_w = r.resp_num_warganegara !== null ? r.resp_num_warganegara : "Tiada Data";
+                
+                csvContent += `${r.tahun},${r.ge_keseluruhan},${r.ge_warganegara},${r.gm_keseluruhan},${r.gm_warganegara},${r_rate_k},${r_num_k},${r_rate_w},${r_num_w}\n`;
             });
 
             const encodedUri = encodeURI(csvContent);
             const link = document.createElement("a");
             link.setAttribute("href", encodedUri);
-            link.setAttribute("download", "Trend_GE_GM_Universiti_Malaya_2020_2025.csv");
+            link.setAttribute("download", "Trend_GE_GM_Respon_Universiti_Malaya_2020_2025.csv");
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
